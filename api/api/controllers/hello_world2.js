@@ -39,6 +39,10 @@ function hello(req, res) {
   var name = req.swagger.params.name.value || 'stranger';
   var hello = util.format('Oh yeah, %s!', name);
 
+  setTimeout(()=>{
+      res.json(hello)
+  }, 3000)
+
   // this sends back a JSON response which is a single string
-  res.json(hello);
+  // res.json(hello);
 }
