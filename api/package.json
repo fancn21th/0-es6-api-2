@@ -16,7 +16,7 @@
     "supertest": "^1.0.0"
   },
   "scripts": {
-    "start": "swagger project start -m",
+    "start": "swagger project start",
     "edit": "swagger project edit",
     "dev": "node app.js",
     "test": "swagger project test"

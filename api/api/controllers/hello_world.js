@@ -42,7 +42,7 @@ function hello(req, res) {
 
   setTimeout(()=>{
       res.json(hello)
-  }, 3000)
+  }, 2000)
 
   // this sends back a JSON response which is a single string
   // res.json(hello);
